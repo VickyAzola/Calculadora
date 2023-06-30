@@ -15,8 +15,9 @@ buttons.forEach((button) => {  // se crea parametro button
 
 //btn-equal
 equal.addEventListener("click", (e) => { //si se hace click en el boton
-    if (screen.value !== "") { //si no hay algun valor   
-        let answer = eval(screen.value); //si queremos daber la respuesta la funcion eval() revisa la pantalla y guarda el valor en la variable answer
+    if (screen.value !== "") { //si la pantalla No esta vacia (es decir, tiene numeros)   
+        let answer = eval(screen.value); //queremos saber el resultado de esos numeros, 
+        //la funcion eval() revisa la pantalla y guarda el valor en la variable answer
         screen.value = ""; //limpiamos la pantalla
         screen.value += answer; //llamamos la variable answer a la pantalla
     }
