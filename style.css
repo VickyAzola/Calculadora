@@ -7,6 +7,10 @@
 body {
     min-height: 100vh;
     background-color: #efeff2;
+}
+
+.container {
+    padding: 2rem;
     display: flex; /*con  los 2 de abajo permite centrar el contenido*/
     justify-content: center;
     align-items: center;
@@ -92,5 +96,9 @@ button {
 
 .btn-clear:hover {
     background-color: #c2c5eb;
-    
+}
+
+.link {
+    display: flex;
+    justify-content: center;
 }
